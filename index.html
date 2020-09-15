@@ -14,18 +14,29 @@
         <div class="col col-md-6 offset-md-3">
             <div class="card text-center">
                 <div class="card-header">
-                    <p class="m-0">Окно результатов генерации</p>
+                    <h2 class="m-0">Результаты генерации:</h2>
                 </div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col">
-                            <h3 class="card-title"><span id="surnameOutput">Генерация фамилии</span></h3>
-                            <h4>Имя: <span id="firstNameOutput">Иван</span></h4>
-                            <p>
-                                <span id="genderOutput">Генерация пола</span>
+                            <h4 class="card-title"><font color="orange">Ф.И.О.: </font><span id="surnameOutput">О</span>
+                            <span id="firstNameOutput">Ким</span>
+                            <span id="middleNameOutput">Иванович</span>
+                            </h4>
+                            <h6>
+                                <span id="genderOutput">М/Ж</span>
                                 <span>, </span>
-                                <span id="birthYearOutput">Генерация года рождения</span>
-                            </p>
+                                <span id="dayBirthOutput">1</span>
+                                <span id="monthBirthOutput">января</span>
+                                <span id="birthYearOutput">1999</span> г. р.
+                            </h6>
+                            <h4><font color="orange">Профессия: </font><span id="professionOutput">Безработный</span></h4>
+                            <div id="identity-content">
+                                <p>
+                                    <a class="btn" id="generate" href="#">Генерация</a> 
+                                    <a class="btn" id="reset" href="#">Очистка</a>
+                                </p>
+                            </div>  
                         </div>
                     </div>
                 </div>
